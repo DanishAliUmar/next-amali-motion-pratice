@@ -25,3 +25,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom__number__input input {
+  border: none;
+  outline: none;
+  background-color: rgb(248 250 252);
+}
+.custom__number__input input:focus {
+  border: none;
+  outline: none;
+}
+
+.PhoneInput--focus {
+  border: 2px solid black;
+}
